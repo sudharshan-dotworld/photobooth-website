@@ -1,0 +1,4 @@
+import ConversionActions from '../../components/site/ConversionActions';
+import {SoftwareSection,FeaturesSection} from '../../components/site/Sections';
+export const metadata={title:'Photo booth software',description:'Customize your photo booth experience with FunFoto software for events and permanent installations.'};
+export default function SoftwarePage(){return <main id="main-content" className="marketing-main inner-page"><h1 className="sr-only">Photo booth software</h1><SoftwareSection/><FeaturesSection/><section id="download" className="site-section download-section"><span className="tiny-label">Hardware compatibility</span><h2>Use your existing booth hardware</h2><p>Send us your camera, printer, and computer specifications to check software compatibility.</p><ConversionActions/></section></main>}

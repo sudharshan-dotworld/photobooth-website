@@ -1,0 +1,17 @@
+# dependencies and builds
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# local working files: screenshots, reference renders, browser profiles, logs
+output/
+tmp/
+.taste-skill/
+.playwright-cli/
+
+# environment and OS files
+.env*
+!.env.example
+.DS_Store
+Thumbs.db

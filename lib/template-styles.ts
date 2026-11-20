@@ -1,0 +1,1 @@
+export const templateStyles=[{id:'midnight',label:'After hours',caption:'GOOD TIMES, GREAT COMPANY'},{id:'blush',label:'Love notes',caption:'A LITTLE MOMENT, ALL OURS'},{id:'paper',label:'Studio',caption:'THESE ARE THE DAYS'}];

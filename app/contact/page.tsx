@@ -1,0 +1,3 @@
+import {ContactSection} from '../../components/site/Sections';
+export const metadata={title:'Contact us',description:'Talk to FunFoto about photo booth hardware, software, and your next experience.'};
+export default async function ContactPage({searchParams}:{searchParams:Promise<{interest?:string}>}){const {interest}=await searchParams;const allowed=['Event Booth','Automat Booth','Software','Monthly plan','Annual plan','Updates','Distributorship','Something else'];return <main id="main-content" className="marketing-main inner-page"><h1 className="sr-only">Contact FunFoto</h1><ContactSection initialInterest={allowed.includes(interest??'')?interest:''}/></main>}
